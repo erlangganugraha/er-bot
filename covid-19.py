@@ -21,7 +21,7 @@ logger.addHandler(handler)
 class Coronavirus(commands.AutoShardedBot):
     def __init__(self):
         super().__init__(
-            command_prefix=when_mentioned_or('.c '),
+            command_prefix=when_mentioned_or('.er '),
             activity=discord.Game(name="Loading...")
             )
         self.remove_command('help')
